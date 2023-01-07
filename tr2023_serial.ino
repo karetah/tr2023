@@ -16,6 +16,7 @@ ISR(ADC_vect){
         uint8_t atmp = ADCL; // Load ADC Result's Low Byte to temp
         ADCval = atmp + (ADCH << 8);
         OCR1A = ADCval;
+        OCR1B = ADCval;
 }
 
 void bLNK () {
@@ -83,7 +84,7 @@ Serial.begin(57600);
 
 void loop() {
   now = millis();
-  if (now - lastSecond > ((1023 - ADCval)/2)) { 
+  if (now - lastSecond > ((1023 - OCR1A)/2)) { 
   //isr_CATCH = OCR1A;
   bLNK(); 
   lastSecond = now; 
