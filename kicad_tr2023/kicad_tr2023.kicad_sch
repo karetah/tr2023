@@ -1,0 +1,174 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ae6ea31a-89f3-4d3b-a665-fca2f46ab8a8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 249.682 150.622) (size 15.494 8.382) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0ce664fb-5e27-4cb3-9bd5-32578bb2d300)
+    (property "Sheet name" "generator" (id 0) (at 249.682 149.9104 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "generator.kicad_sch" (id 1) (at 249.682 159.5886 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 193.04 133.604) (size 16.256 8.128) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 34d45c12-9ce4-4b51-aaf8-d1ea918f268a)
+    (property "Sheet name" "reverse" (id 0) (at 193.04 132.8924 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "reverse.kicad_sch" (id 1) (at 193.04 142.3166 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 187.96 150.368) (size 16.256 7.874) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 71204b6c-b957-415d-b644-1807de96873a)
+    (property "Sheet name" "accel" (id 0) (at 187.96 149.6564 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "accel.kicad_sch" (id 1) (at 187.96 158.8266 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 219.71 150.368) (size 14.478 7.874) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c32b5ce1-bf46-41e2-af6e-64b1984d359d)
+    (property "Sheet name" "driver" (id 0) (at 219.71 149.6564 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "driver.kicad_sch" (id 1) (at 219.71 158.8266 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/71204b6c-b957-415d-b644-1807de96873a" (page "2"))
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d" (page "3"))
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300" (page "4"))
+    (path "/34d45c12-9ce4-4b51-aaf8-d1ea918f268a" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/71204b6c-b957-415d-b644-1807de96873a/1a1913e0-90b1-4061-8726-305d36323ad5"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/1e699d63-289f-4913-9f01-7bb573a9dacf"
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/c1acc8e3-27c6-40c2-b7cc-2fcaf616906b"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/127fa02f-3140-49a9-9eaa-91eaf92ba13e"
+      (reference "#PWR01") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/f1d09697-9073-4957-a4fe-fba44a364ed0"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/105af300-2052-4b7b-952e-4b0641dc60d7"
+      (reference "#PWR012") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/83519272-7d12-4e67-bfc4-2c57ab87480a"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/cfc6f1fe-9389-4eb2-bd49-a0cbe5210cb7"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/1af4b94c-5718-49e7-8879-2b657ec4b373"
+      (reference "#PWR0102") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/a619ab21-6b84-41fa-a08d-61b36e21f87a"
+      (reference "C5") (unit 1) (value "475") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/b05b62d6-e97e-4757-aa0f-74252d2f0d1f"
+      (reference "C7") (unit 1) (value "106") (footprint "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/0c678612-8d97-491b-98df-fb8d87b8a210"
+      (reference "C8") (unit 1) (value "10n") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/7f8331c9-d256-4d0e-b513-1d06ab3bd98f"
+      (reference "C9") (unit 1) (value "6.8n") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/086301b8-30d2-493c-b5b7-91a084452c95"
+      (reference "D1") (unit 1) (value "FR107") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/122ee31d-cc4b-4a2f-95aa-857731f4d9be"
+      (reference "J1") (unit 1) (value "Conn_3V3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/7686469e-6c4b-428b-a242-e8d52e689995"
+      (reference "J2") (unit 1) (value "Conn_GND") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/53a6845a-491f-40e0-be12-be63bc357f21"
+      (reference "J3") (unit 1) (value "ADC6") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/de2a709b-2882-4ac1-b2b9-db745040acbe"
+      (reference "J4") (unit 1) (value "Conn_ACCEL") (footprint "Connector:FanPinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/12a36d89-8575-4658-ad59-1c2e12f1a5ae"
+      (reference "J5") (unit 1) (value "Conn_ACCEL_F") (footprint "")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/37c923dd-f9a4-4c93-b7d4-36947f4389b1"
+      (reference "J14") (unit 1) (value "Arduino_D10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/2dff67ff-df4c-42e1-8d05-7587143d26c5"
+      (reference "J15") (unit 1) (value "Conn_FET") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/9094c1e2-0865-4267-a2ad-845ab2f3aa5b"
+      (reference "J16") (unit 1) (value "Arduino_D2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/017ab7d7-a720-4b3f-882c-681606e828ef"
+      (reference "R1") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/1cca24da-7fdd-4636-82cb-77c1711fbbfd"
+      (reference "R6") (unit 1) (value "270") (footprint "")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/00f9f546-919d-4269-8a98-5cad374abb32"
+      (reference "R11") (unit 1) (value "10") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/8a57f7fc-09c5-44ae-9691-71f46cc1f901"
+      (reference "R13") (unit 1) (value "1K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/06f37869-2156-4285-ba8a-e2065ade60d8"
+      (reference "R14") (unit 1) (value "1K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/2574d129-1724-457e-808e-650e7ac2a7f1"
+      (reference "RV1") (unit 1) (value "4K") (footprint "")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/0784d4fe-e5bd-46bf-83ee-56f0e8abf3b6"
+      (reference "RV2") (unit 1) (value "20K") (footprint "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical")
+    )
+    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/aa1ecbf8-6d70-45e1-bd5f-a02fc2b52e64"
+      (reference "U1") (unit 1) (value "MIC4427") (footprint "")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/8e40ff69-ce8d-45e7-ad31-040a7d583ce9"
+      (reference "U2") (unit 1) (value "TL431LP") (footprint "Package_TO_SOT_THT:TO-92L_Wide")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/71f5d699-c00f-4a4c-89b5-d27567d49084"
+      (reference "U3") (unit 1) (value "LM358") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/9e6bec8d-4610-4ccc-ac54-b7a7f3cd9afb"
+      (reference "U3") (unit 2) (value "LM358") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/71204b6c-b957-415d-b644-1807de96873a/5ccfd640-d167-4e15-bb05-4a259321127b"
+      (reference "U3") (unit 3) (value "LM358") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/66f73f27-c549-457b-b052-8d8ab07a0970"
+      (reference "U5") (unit 1) (value "NE555P") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+  )
+)
