@@ -44,6 +44,18 @@
     )
   )
 
+  (sheet (at 217.932 133.096) (size 16.002 8.382) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b9f9b85b-4028-4ab4-b5d9-32a450460432)
+    (property "Sheet name" "backlamp" (id 0) (at 217.932 132.3844 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "backlamp.kicad_sch" (id 1) (at 217.932 142.0626 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 219.71 150.368) (size 14.478 7.874) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -62,6 +74,7 @@
     (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d" (page "3"))
     (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300" (page "4"))
     (path "/34d45c12-9ce4-4b51-aaf8-d1ea918f268a" (page "5"))
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432" (page "6"))
   )
 
   (symbol_instances
@@ -92,6 +105,12 @@
     (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/1af4b94c-5718-49e7-8879-2b657ec4b373"
       (reference "#PWR0102") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432/93039435-bc3f-4db4-93c5-5d2a91d46fa3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432/adc5dabe-4e2e-4deb-8249-d4e16c17bdd3"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/71204b6c-b957-415d-b644-1807de96873a/a619ab21-6b84-41fa-a08d-61b36e21f87a"
       (reference "C5") (unit 1) (value "475") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
@@ -104,8 +123,8 @@
     (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/7f8331c9-d256-4d0e-b513-1d06ab3bd98f"
       (reference "C9") (unit 1) (value "6.8n") (footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm")
     )
-    (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/086301b8-30d2-493c-b5b7-91a084452c95"
-      (reference "D1") (unit 1) (value "FR107") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432/b5f90935-fc27-424b-91cd-0e83283affd4"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/71204b6c-b957-415d-b644-1807de96873a/122ee31d-cc4b-4a2f-95aa-857731f4d9be"
       (reference "J1") (unit 1) (value "Conn_3V3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
@@ -131,6 +150,12 @@
     (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/9094c1e2-0865-4267-a2ad-845ab2f3aa5b"
       (reference "J16") (unit 1) (value "Arduino_D2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432/0d0531a3-7e72-42ab-b9e6-147bc805eb73"
+      (reference "J?") (unit 1) (value "LAMP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432/dd74102a-157f-4f5c-8d97-c6f9a9173dc7"
+      (reference "J?") (unit 1) (value "A7") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
     (path "/c32b5ce1-bf46-41e2-af6e-64b1984d359d/017ab7d7-a720-4b3f-882c-681606e828ef"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
@@ -145,6 +170,12 @@
     )
     (path "/0ce664fb-5e27-4cb3-9bd5-32578bb2d300/06f37869-2156-4285-ba8a-e2065ade60d8"
       (reference "R14") (unit 1) (value "1K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432/9c82e11d-9699-435a-8eca-b4ab8ac28975"
+      (reference "R?") (unit 1) (value "150K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/b9f9b85b-4028-4ab4-b5d9-32a450460432/a09c60f2-aeba-4fb5-824c-fd20a73713e3"
+      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/71204b6c-b957-415d-b644-1807de96873a/2574d129-1724-457e-808e-650e7ac2a7f1"
       (reference "RV1") (unit 1) (value "4K") (footprint "")
