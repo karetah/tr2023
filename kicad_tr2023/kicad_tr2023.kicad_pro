@@ -416,24 +416,8 @@
       ""
     ],
     [
-      "71204b6c-b957-415d-b644-1807de96873a",
-      "accel"
-    ],
-    [
-      "c32b5ce1-bf46-41e2-af6e-64b1984d359d",
-      "driver"
-    ],
-    [
-      "0ce664fb-5e27-4cb3-9bd5-32578bb2d300",
-      "generator"
-    ],
-    [
       "34d45c12-9ce4-4b51-aaf8-d1ea918f268a",
       "reverse"
-    ],
-    [
-      "b9f9b85b-4028-4ab4-b5d9-32a450460432",
-      "backlamp"
     ]
   ],
   "text_variables": {}
